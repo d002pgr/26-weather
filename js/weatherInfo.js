@@ -1,7 +1,7 @@
 export {infoForRequest, getWeather}
 
 const infoForRequest = {
-    'serverUrl': 'http://api.openweathermap.org/data/2.5/weather',
+    'serverUrl': 'https://api.openweathermap.org/data/2.5/weather',
     'city': 'boston',
     'apiKey': '4fb30dcd8eb80d796c79e4ba22d7b907'
 };
