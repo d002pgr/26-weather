@@ -1,5 +1,5 @@
 import { infoForRequest, getWeather } from './weatherInfo.js'
-import { inputField, input, cityList, cityTemperature, heart } from './constants.js';
+import { inputField, input, cityList, cityTemperature, heart } from './constants.js'
 
 inputField.addEventListener('submit', renderWeather);
 cityList.addEventListener('click', renderWeather);
