@@ -7,7 +7,7 @@
     </head>
     <body>
         <div class="main-wrapper">
-            <div class="main-container">
+            <div class="main-container"> 
                 <form class="input-field">
                     <input placeholder="" required>
                     <button type="submit">
@@ -15,8 +15,6 @@
                     </button>
                 </form>
                 <div class="weather-in-city">
-                    <h1></h1>
-                    <img class="weather-icon" src=" " alt="">
                     <div class="name-bar">
                         <p></p>
                         <button>
@@ -25,11 +23,50 @@
                             </svg>
                         </button>
                     </div>
+                    <div class="temperature-icon-wrapper">
+                        <h1></h1>
+                        <img class="weather-icon" src=" " alt="">
+                    </div>
+                    <div class="current-details">
+                        <p class="current-feels-like">Feels like: -40</p>
+                        <p class="sunrise">Sunrise: 03:43</p>
+                        <p class="sunset">Sunset: 08:52</p>
+                    </div>
+                    <ul class="daytime-weather">
+                        <li>
+                            <p class="time first-period">12:00</p>
+                            <div class="daytime-temp-img-wrapper">
+                                <div>
+                                    <p class="first-period-temperature">Temperature: 13</p>
+                                    <p class="first-period-feels-like">Feels like: 11</p>
+                                </div>
+                                <img class="forecast-img first-period-img" src=" " alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <p class="time second-period">15:00</p>
+                            <div class="daytime-temp-img-wrapper">
+                                <div>
+                                    <p class="second-period-temperature">Temperature: 11</p>
+                                    <p class="second-period-feels-like">Feels like: 10</p>
+                                </div>
+                                <img class="forecast-img second-period-img" src=" " alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <p class="time third-period">18:00</p>
+                            <div class="daytime-temp-img-wrapper">
+                                <div>
+                                    <p class="third-period-temperature">Temperature: 11</p>
+                                    <p class="third-period-feels-like">Feels like: 10</p>
+                                </div>
+                                <img class="forecast-img third-period-img" src=" " alt="">
+                            </div>
+                        </li>
+                    </ul>
                 </div>
                 <p class="added-locations">Added Locations:</p>
-                <ul class="city-list">
-                    
-                </ul>
+                <ul class="city-list"></ul>
             </div>
         </div>
         <script type="module" src="./js/main.js"></script>
